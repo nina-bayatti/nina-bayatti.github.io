@@ -10,7 +10,6 @@ h1.lead, h2.lead, a.webTitle, a.navbar-brand {
 	font-weight: 900;
 	letter-spacing: 6px;
 	font-family: 'Bangers', sans-serif;
-
 }
 
 h1.lead {
@@ -57,22 +56,6 @@ a:hover {
 
 /*LAYOUT*/
 
-a #mobile-nav {
-	display: block;
-}
-
-#burger {
-	display: none;
-}
-
-#burger:hover{
-	cursor: pointer;
-}
-
-#mobile-nav {
-	display: none;
-}
-
 div.jumbotron {
 	background: url(../images/hero-img.png);
 	background-size: cover;
@@ -112,5 +95,7 @@ img.parallax-slider {
 
 /*MEDIA QUERIES*/
 @media (max-width: 875px) {
-	
+	div.parallax-window img {
+		opacity: 0.2;
+	}
 }
