@@ -19,8 +19,8 @@ $(document).ready (function () {
 	});
 
 	//Parallax effects
-	$('.parallax-window1').parallax({imageSrc: '../NinaFinalProject/assets/images/stretch-view.jpg'});
-	$('.parallax-window2').parallax({imageSrc: '../NinaFinalProject/assets/images/alia-yogi.JPG'});
+	$('.parallax-window1').parallax({imageSrc: './assets/images/stretch-view.jpg'});
+	$('.parallax-window2').parallax({imageSrc: './assets/images/alia-yogi.JPG'});
 
 	$('#burger').click(function () {
 		$('#mobile-nav').show();
